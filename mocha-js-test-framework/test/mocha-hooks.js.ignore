@@ -1,0 +1,51 @@
+// Test Suite - Mocha Hooks
+
+// Test Cases
+
+// 1. before
+// 2. beforeEach
+// 3. after
+// 4. afterEach
+// 5. Test 1
+// 6. Test 2
+
+
+describe('Mocha Hooks', function() {
+
+    before('before hook', function() {
+
+      console.log("Execute before all tests");
+
+    });
+
+    beforeEach('beforeEach hook', function() {
+
+      console.log("Execute before each test");
+
+    });
+
+    after('afer hook', function() {
+
+        console.log("Execute after all tests");
+
+    });
+
+    afterEach('afterEach hook', function() {
+
+        console.log("Execute after each test");
+
+    });
+
+    it('Mocha Hooks Test 1', function() {
+
+      console.log("This is a test for Mocha Hooks");
+
+    });
+
+    it('Mocha Hooks Test 2', function() {
+
+      console.log("This is a test for Mocha Hooks");
+
+    });
+
+});

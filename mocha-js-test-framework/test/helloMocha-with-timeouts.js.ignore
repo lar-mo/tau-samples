@@ -1,0 +1,73 @@
+// Test Suite - Mathematical Operations
+
+// Test Cases
+
+// 1. Addition
+// 2. Subtraction
+// 3. Multiplication
+// 4. Division
+
+var assert = require('assert');
+
+describe('Mathematical Operations - Test Suite', function() {
+
+    // this.timeout(5000); // max timeout for all tests
+
+    var a = 10;
+    var b = 10;
+
+    // beforeEach(function(done) {
+    //
+    //     this.timeout(500);
+    //
+    //     setTimeout(done, 3000);
+    //
+    // });
+
+    it('Addition of two numbers', function(done) {
+
+        // setTimeout(done, 3000); // intentionally shorter than suite timeout of 500ms
+
+        var c = a+b;
+
+        assert.equal(c,20);
+
+    });
+
+    it('Subtraction of two numbers', function(done) {
+
+      // this.timeout(500);
+
+      // setTimeout(done, 3000);
+
+      var c = a-b;
+
+      assert.equal(c,0);
+
+    });
+
+    it('Multiplication of two numbers', function() {
+
+
+      var c = a*b;
+      assert.equal(c,100);
+
+    });
+
+    it('Division of two numbers', function() {
+
+      var c = a/b;
+
+      assert.equal(c,0);
+
+    });
+
+    it.skip('Pending test using skip()', function() {
+
+      console.log("Pending test; using skip()");
+
+    })
+
+    it('Pending test w/o callback function'); // no callback function()
+
+});
