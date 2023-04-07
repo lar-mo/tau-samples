@@ -10,7 +10,7 @@ describe('Match Levels Example', function () {
 
     it('Content Match Level', async function () {
         // Navigate the browser to the "hello world!" web-site.
-        browser.url('http://127.0.0.1:5500/visual-testing-wdio/WebdriverIO-Applitools/Sample%20Site/')
+        browser.url('http://127.0.0.1:5500/visual-testing-wdio/WebdriverIO-Applitools/Sample%20Site/');
         
         try {
 
@@ -40,7 +40,7 @@ describe('Match Levels Example', function () {
 
     it.only('Layout Match Level', async function () {
         // Navigate the browser to the "hello world!" web-site.
-        browser.url('http://the-internet.herokuapp.com/dynamic_content')
+        browser.url('http://the-internet.herokuapp.com/dynamic_content');
         
         try {
 
@@ -66,6 +66,6 @@ describe('Match Levels Example', function () {
             // If the test was aborted before eyes.close was called ends the test as aborted.
             await eyes.abortIfNotClosed();
         }
-    })
+    });
 
 });

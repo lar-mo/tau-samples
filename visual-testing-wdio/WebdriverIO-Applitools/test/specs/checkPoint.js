@@ -1,9 +1,9 @@
 // Initialize the eyes SDK
-const { Eyes, Target } = require('@applitools/eyes.webdriverio');
+const { Eyes, Target } = require('@applitools/eyes-webdriverio');
 
 const eyes = new Eyes();
 
-// set your private API key.
+// Set your private API key.
 eyes.setApiKey(process.env.APPLITOOLS_API_KEY);
 
 describe('Check Points Example', function () {
@@ -38,25 +38,27 @@ describe('Check Points Example', function () {
             // If the test was aborted before eyes.close was called ends the test as aborted.
             await eyes.abortIfNotClosed();
         }
-    })
+    });
 
-    it('Check Element By Selector', async function () {
+    it.only('Check Element By Selector', async function () {
         // Navigate the browser to the "hello world!" web-site.
-        browser.url('https://www.wikipedia.org/')
+        browser.url('https://www.wikipedia.org/');
         
         try {
 
             // Set chrome to fullscreen
-            browser.windowHandleFullscreen();
+            browser.maximizeWindow();
 
             // Get the current size of the screen
-            const viewportSize = browser.getViewportSize()
+            const viewportSize = browser.getWindowSize();
 
             // Start the test and set the browser's viewport size to 
             await eyes.open(browser, 'Check Element By Selector Example', 'Wiki Selector Example', viewportSize);
 
             // Visual checkpoint #1.
-            await eyes.checkElementBySelector('#www-wikipedia-org > h1 > div > div');
+            // await eyes.checkElementBySelector('#www-wikipedia-org > h1 > div > div');
+            const element = driver.findElement(By.css('#www-wikipedia-org > h1 > div > div'));
+            await eyes.check("logo only", Target.region(element));
 
             // End the test.
             await eyes.close();
@@ -66,19 +68,19 @@ describe('Check Points Example', function () {
             // If the test was aborted before eyes.close was called ends the test as aborted.
             await eyes.abortIfNotClosed();
         }
-    })
+    });
 
-    it.only('Check Frame', async function () {
+    it('Check Frame', async function () {
 
-        browser.url('http://the-internet.herokuapp.com/nested_frames')
+        browser.url('http://the-internet.herokuapp.com/nested_frames');
         
         try {
 
             // Set chrome to fullscreen
-            browser.windowHandleFullscreen();
+            browser.maximizeWindow();
 
             // Get the current size of the screen
-            const viewportSize = browser.getViewportSize()
+            const viewportSize = browser.getWindowSize();
 
             // Start the test and set the browser's viewport size to 
             await eyes.open(browser, 'Check Frame Example', 'Check Bottom Frame Example', viewportSize);
@@ -94,7 +96,7 @@ describe('Check Points Example', function () {
             // If the test was aborted before eyes.close was called ends the test as aborted.
             await eyes.abortIfNotClosed();
         }
-    })
+    });
     
 
-})
+});
