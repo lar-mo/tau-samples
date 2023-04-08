@@ -10,3 +10,4 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 4. Introduction to Chai Assertions: https://testautomationu.applitools.com/chai-test-assertions/index.html
 5. Introduction to Cypress: https://testautomationu.applitools.com/cypress-tutorial/index.html
 6. JavaScript Test Automation with Cucumber: https://testautomationu.applitools.com/cucumber-javascript-tutorial/
+7. Automated Visual Testing with WebdriverIO: https://testautomationu.applitools.com/automated-visual-testing-javascript-webdriverio/index.html
