@@ -40,7 +40,7 @@ describe('Check Points Example', function () {
         }
     });
 
-    it.only('Check Element By Selector', async function () {
+    it('Check Element By Selector', async function () {
         // Navigate the browser to the "hello world!" web-site.
         browser.url('https://www.wikipedia.org/');
         
@@ -57,8 +57,7 @@ describe('Check Points Example', function () {
 
             // Visual checkpoint #1.
             // await eyes.checkElementBySelector('#www-wikipedia-org > h1 > div > div');
-            const element = driver.findElement(By.css('#www-wikipedia-org > h1 > div > div'));
-            await eyes.check("logo only", Target.region(element));
+            await eyes.check("Wiki heading", Target.region("h1"));
 
             // End the test.
             await eyes.close();
@@ -70,7 +69,7 @@ describe('Check Points Example', function () {
         }
     });
 
-    it('Check Frame', async function () {
+    it.only('Check Frame', async function () {
 
         browser.url('http://the-internet.herokuapp.com/nested_frames');
         
@@ -86,7 +85,8 @@ describe('Check Points Example', function () {
             await eyes.open(browser, 'Check Frame Example', 'Check Bottom Frame Example', viewportSize);
 
             // Visual checkpoint #1.
-            await eyes.checkFrame('frame-bottom');
+            // await eyes.checkFrame('frame-bottom');
+            await eyes.check("Bottom frame", Target.frame("//frame[@name='frame-bottom']"))
 
             // End the test.
             await eyes.close();

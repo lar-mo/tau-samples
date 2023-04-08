@@ -34,7 +34,8 @@ describe('Batches', function () {
             // Start the test and set the browser's viewport size to 
             await eyes.open(browser, 'Test Batches', 'Last Name filter', viewportSize);
 
-            browser.click('#table1 > thead > tr > th:nth-child(1) > span')
+            // await eyes.click('#table1 > thead > tr > th:nth-child(1) > span');
+            await $('#table1 > thead > tr > th:nth-child(1) > span').click();
 
             // Visual checkpoint #1.
             await eyes.check('Check Last Name', Target.window());
@@ -46,7 +47,7 @@ describe('Batches', function () {
             // Start the test and set the browser's viewport size to 
             await eyes.open(browser, 'Test Batches', 'First Name filter', viewportSize);
 
-            browser.click('#table1 > thead > tr > th:nth-child(2) > span')
+            await $('#table1 > thead > tr > th:nth-child(2) > span').click();
 
             // Visual checkpoint #1.
             await eyes.check('Check First Name', Target.window());
@@ -59,7 +60,7 @@ describe('Batches', function () {
             // Start the test and set the browser's viewport size to 
             await eyes.open(browser, 'Test Batches', 'Due filter', viewportSize);
 
-            browser.click('#table1 > thead > tr > th:nth-child(4) > span');
+            await $('#table1 > thead > tr > th:nth-child(4) > span').click();
 
             // Visual checkpoint #1.
             await eyes.check('Check Amount Due', Target.window());
