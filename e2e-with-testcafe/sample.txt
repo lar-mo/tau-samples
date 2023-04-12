@@ -1,0 +1,63 @@
+Fixture
+
+fixture `Authentication tests`;
+    .page `https://devexpress.github.io/testcafe/`;
+
+// with tests
+fixture `MyFixture`;
+
+test('Test1', async t => {
+    /* Test 1 code */
+});
+
+test('Test2', async t => {
+    /* Test 2 code */
+});
+
+
+Specify web page
+* Specify start page
+* Fixture/Test metadata
+    * Information that shows up in the Reports
+    * testcafe chrome my-tests --test-meta device=mobile,env=production
+    * testcafe <browser> <test/suite> <flag for specific parameters to meet>
+* Interact with page's elements
+* Hooks (before, beforeEach, after, afterEach)
+* How to skip a test
+* Working w/ client functions
+* Assertions w/ TestCafe
+
+## Meta Data ##
+fixture `My Fixture`
+    .meta('fixtureID', 'f-0001')
+    .meta({author: 'Larry', createDate: '04/11/23'});
+
+test
+    .meta('TestID', 't-0004')
+    .meta({severity: 'critical', testedAPIVersion: '1.0'})
+    ('MyTest', async t => { /* ... */});
+
+
+## Page Interactions ##
+
+* Click (form field, button, radio, check?)
+* Naviate
+* Type Text
+* Select Text
+* Hover
+* Drag
+* Upload Files
+* iFrames
+* Window
+
+
+## Assertion methods ##
+
+* Deep Equal                            * Greater than
+* Not Deep Equal                        * Greater than or Equal to
+* Ok                                    * Less than
+* Not Ok                                * Less than or Equal to
+* Contains                              * Within
+* Not Contains                          * Not Within
+* Type of                               * Match
+* Not Type of                           * Not Match
