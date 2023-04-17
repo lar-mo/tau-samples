@@ -1,3 +1,8 @@
+/*
+testcafe chrome my-tests --fixture-meta device=mobile,env=production
+testcafe chrome my-tests --test-meta device=mobile,env=production
+*/
+
 const { fixture } = require("testcafe");
 
 fixture.meta('version','1')("First Fixture")

@@ -2,7 +2,7 @@
 // await t.expect(Selector('#elementid').innerText).eql('txt', 'check element text', {timeout: 500});
 
 /*
-import { Selector} from 'testcafe';
+import { Selector } from 'testcafe';
 
 fixture 'Example page'
     .page 'https://devexpress.github.io/testcafe/example/';

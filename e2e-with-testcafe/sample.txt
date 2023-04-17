@@ -37,6 +37,9 @@ test
     .meta({severity: 'critical', testedAPIVersion: '1.0'})
     ('MyTest', async t => { /* ... */});
 
+Run Test:
+testcafe chrome my-tests --fixture-meta device=mobile,env=production
+testcafe chrome my-tests --test-meta device=mobile,env=production
 
 ## Page Interactions ##
 
@@ -61,3 +64,79 @@ test
 * Not Contains                          * Not Within
 * Type of                               * Match
 * Not Type of                           * Not Match
+
+
+
+## list all supported browsers
+testcafe --list-browsers
+
+## on all tests on all browsers
+testcafe all tests
+
+## if errors, pass --skip-js-errors
+testcafe all tests/client-side.test.js --skip-js-errors
+
+## concurrency -c --concurrent
+
+testcafe -c 3 chrome test/test.js 
+testcafe -c 3 chrome,safari test/test.js  # 3 instances of safari, 3 firefox
+# concurrency not supported on Edge 
+# when fixture has multiple tests, and run concurrently,
+# test1: instance 1
+# test2: instance 2
+# test3: instance 1 (or 3)
+
+## live mode -- keep instance open while editing
+testcafe chrome test/test.js -L 
+
+
+Filtering
+
+use -t in the CLI or runner.filter method
+
+testcafe chrome test/test.js -t "click a label"
+
+await runner
+    .browsers('chrome')
+    .src('test/test.js')
+    .filter(testName => testName === 'click a label')
+    .run();
+
+
+
+## headless mode
+## chrome and firefox only
+
+testcafe firefox:headless ./tests
+
+
+## chrome device emulator
+testcafe 'chrome:emulation:device=iphone X' tests/test.js
+
+
+## wait mechanism
+built in - actions, assertions, elements, etc
+
+visibilityCheck
+const nameInputElement = await nameInput.with({visibilityCheck: true})();
+
+## debugging mode
+t.debug - opens devs tools 
+
+CLI - testcafe chrome test/test.js --debug-on-fail
+
+## screenshosts
+only works on Windows with .NET 4.0 or newer
+not supported for remote browsers
+
+## videos
+prequisites: install FFmpeg library (@ffmpeg-installer/ffmpeg package from NPM)
+saved as .MP4
+
+--video CLI flag
+testcafe chrome test.js --video artifacts/videos
+
+failedOnly (true, false)
+singleFile (t/f)
+ffmpegPath 
+pathPattern
