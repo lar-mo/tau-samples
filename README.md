@@ -12,3 +12,4 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 6. JavaScript Test Automation with Cucumber: https://testautomationu.applitools.com/cucumber-javascript-tutorial/
 7. Automated Visual Testing with WebdriverIO: https://testautomationu.applitools.com/automated-visual-testing-javascript-webdriverio/index.html
 8. Playwright with JavaScript: https://testautomationu.applitools.com/js-playwright-tutorial/index.html
+9. E2E Web Testing with TestCafe: https://testautomationu.applitools.com/testcafe-tutorial/index.html
