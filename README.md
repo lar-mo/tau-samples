@@ -36,4 +36,5 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 [9b]: https://github.com/lar-mo/tau-samples/tree/main/e2e-with-testcafe
 
 
-<a href="https://www.google.com" target="_blank">click here to open new tab</a>
+	
+<a href="http://example.com" target="_blank" rel="noopener">Link</a>
