@@ -32,4 +32,6 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
     * https://testautomationu.applitools.com/testcafe-tutorial/index.html
     * Code: https://github.com/lar-mo/tau-samples/tree/main/e2e-with-testcafe
 
-    [https://www.google.com|google]
+    [Google][1]
+
+    [1]:https://www.google.com 
