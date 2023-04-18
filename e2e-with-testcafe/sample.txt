@@ -140,3 +140,8 @@ failedOnly (true, false)
 singleFile (t/f)
 ffmpegPath 
 pathPattern
+
+## page model / page object model ##
+Test automation pattern - abstraction of test pages
+classes for each webpage
+-- elements and methods
