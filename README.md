@@ -34,3 +34,6 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 [8b]: https://github.com/lar-mo/tau-samples/tree/main/playwright-with-javascript
 [9a]: https://testautomationu.applitools.com/testcafe-tutorial/index.html
 [9b]: https://github.com/lar-mo/tau-samples/tree/main/e2e-with-testcafe
+
+
+<a href="https://www.google.com" target="_new">click here to open new tab</a>
