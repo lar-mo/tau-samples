@@ -5,6 +5,7 @@ This code is taught and used in TAU Learning Path:
 Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path
 
 \# | Title | Course URL | Code Repo
+---|---|---|---
 1 | Introduction to JavaScript | [Course][1] | [Code][2]
 2 | Automating in the Browser Using JavaScript | [Course][3] | [Code][4] 
 3 | Mocha JavaScript Test Framework | [Course][5] | [Code][6] 
