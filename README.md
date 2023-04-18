@@ -4,15 +4,15 @@ This code is taught and used in TAU Learning Path:
 
 Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.html?id=web-ui-javascript-path
 
-1. Course: [Introduction to JavaScript][1] - [Code][2]
-2. Course: [Automating in the Browser Using JavaScript][3] - [Code][4] 
-3. Course: [Mocha JavaScript Test Framework][5] - [Code][6] 
-4. Course: [Introduction to Chai Assertions][7] - [Code][8]
-5. Course: [Introduction to Cypress][9] - [Code][10]
-6. Course: [JavaScript Test Automation with Cucumber][11] - [Code][12]
-7. Course: [Automated Visual Testing with WebdriverIO][13] - [Code][14]
-8. Course: [Playwright with JavaScript][15] - [Code][16]
-9. Course: [E2E Web Testing with TestCafe][17] - [Code][18]
+1. Introduction to JavaScript: [Course][1] - [Code][2]
+2. Automating in the Browser Using JavaScript: [Course][3] - [Code][4] 
+3. Mocha JavaScript Test Framework: [Course][5] - [Code][6] 
+4. Introduction to Chai Assertions: [Course][7] - [Code][8]
+5. Introduction to Cypress: [Course][9] - [Code][10]
+6. JavaScript Test Automation with Cucumber: [Course][11] - [Code][12]
+7. Automated Visual Testing with WebdriverIO: [Course][13] - [Code][14]
+8. Playwright with JavaScript: [Course][15] - [Code][16]
+9. E2E Web Testing with TestCafe: [Course][17] - [Code][18]
 
 [1]: https://testautomationu.applitools.com/javascript-tutorial/index.html
 [2]: https://github.com/lar-mo/tau-samples/tree/main/intro-to-JS
