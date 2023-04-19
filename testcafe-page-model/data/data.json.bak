@@ -1,0 +1,20 @@
+[
+    {
+        "firstname":"Larry",
+        "lastname":"Moiola",
+        "birthday":"2",
+        "birthmonth":"December",
+        "birthyear":"1970",
+        "email":"larrymoiola",
+        "password":"test01"
+    },
+    {
+        "firstname":"John",
+        "lastname":"Smith",
+        "birthday":"14",
+        "birthmonth":"March",
+        "birthyear":"1982",
+        "email":"john.smith",
+        "password":"test01"
+    }
+]

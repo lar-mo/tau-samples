@@ -10,9 +10,9 @@ const DOC_ALLURE_CONFIG = {
         TEST_RUN: 'TEST_RUN'
     },
     STORY_LABEL: 'JIRA Story Link',
-    STORY_URL: 'https://jira.example.ca/browse/{{ID}}',
+    STORY_URL: 'https://jira.tau.com/browse/{{ID}}',
     TEST_LABEL: 'JIRA Test Link',
-    TEST_URL: 'https://jira.example.ca/secure/Tests.jspa#/testCase/{{ID}}',
+    TEST_URL: 'https://jira.tau.com/secure/Tests.jspa#/testCase/{{ID}}',
     labels: {
         screenshotLabel: 'Screenshot',
         browserLabel: 'Browser',

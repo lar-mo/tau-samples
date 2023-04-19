@@ -7,22 +7,23 @@ class HomePage{
 // page title
     constructor(){
         this.subtitleHeader = Selector('h2')
-            .withText("Welcome to our store")
+            .withText(/Welcome to our store/i)
         this.registerLink = Selector('a')
-            .withText('Register')
+            // .withText('Register')
+            .withText(/Register/i)
         this.loginLink = Selector('a')
-            .withText('Log in')
+            .withText(/Log in/i)
         this.shoppingCartLink = Selector('a')
-            .withText('Shopping cart')
+            .withText(/Shopping cart/i)
         this.wishListLink = Selector('a')
-            .withText('Wish List')
+            .withText(/Wish List/i)
         this.currencyList = Selector('#customerCurrency')
         // My Account
         this.myAccountLink = Selector('a')
-            .withText('My account')
+            .withText(/My account/i)
         // Logout
         this.logoutLink = Selector('a')
-            .withText('Log out')
+            .withText(/Log out/i)
     }
     // search 
     get productSearch() {
