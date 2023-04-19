@@ -145,3 +145,25 @@ pathPattern
 Test automation pattern - abstraction of test pages
 classes for each webpage
 -- elements and methods
+
+## reporting ##
+Plugs (NPM packages)
+
+Formats:
+* spec (default)        * xUnit
+* JSON                  * List
+* HTML                  * Allure
+
+parts: 
+1. testcafe-reports- prefix
+2. reporter - like testcafe-reporter-list or testcafe-reporter-json
+
+HTML
+npm i testcafe-reporter-html
+testcafe chrome test/test.js --reporter html:report.html
+
+Allure
+npm i testcafe-reporter-Allure
+testcafe chrome test/test.js --reporter allure
+npm i -g allure-commandline
+allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report

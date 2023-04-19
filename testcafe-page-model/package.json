@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "testcafe"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^2.5.0"
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe": "^2.5.0",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {
+    "@applitools/eyes-testcafe": "^1.17.4"
   }
 }

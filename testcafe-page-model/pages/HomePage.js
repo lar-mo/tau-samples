@@ -13,10 +13,10 @@ class HomePage{
         this.loginLink = Selector('a')
             .withText('Log in')
         this.shoppingCartLink = Selector('a')
-            .withText('Shopping Cart')
+            .withText('Shopping cart')
         this.wishListLink = Selector('a')
             .withText('Wish List')
-        this.currencyList = Selector('#customCurrency')
+        this.currencyList = Selector('#customerCurrency')
         // My Account
         this.myAccountLink = Selector('a')
             .withText('My account')
