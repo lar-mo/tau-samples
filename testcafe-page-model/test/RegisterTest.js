@@ -18,13 +18,7 @@ fixture("Register Fixture")
     // .afterEach(async () => eyes.close())
     // .after(async () => eyes.waitForResults(true));
 
-test.skip
-.meta({
-    ID: '12334',
-    SEVERITY: 'blocker',
-    STORY: '114'
-})
-("Assert Home page test", async t => {
+test("Assert Home page test", async t => {
     await t
         .expect(getURL()).eql(URL)
         .takeScreenshot()
@@ -32,7 +26,7 @@ test.skip
 });
 
 dataset.forEach(data =>{
-    test("User registration and login test", async t => {
+    test.skip("User registration and login test", async t => {
         // await eyes.open({
         //     appName: 'TestCafe Demo',
         //     testName: 'User registration and login test',
