@@ -15,6 +15,14 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 7 | Automated Visual Testing with WebdriverIO | [Course][7a] | [Code][7b]
 8 | Playwright with JavaScript | [Course][8a] | [Code][8b]
 9 | E2E Web Testing with TestCafe | [Course][9a] | [Code][9b]
+10 | The Whole Team Approach to Continuous Testing | [Course][10] |
+11 | Scaling Tests with Docker | [Course][11] |
+12 | Test Automation in DevOps | [Course][12a] |
+13 | Testing From The Inside: Unit Testing Edition | [Course][13a] |
+14 | Tools and Techniques for Performance and Load | [Course][14a] |
+15 | Modern Functional Test Automation Through Visual | [Course][15a] |
+16 | Source Control for Test Automation with Git | [Course][16a] |
+17 | Continuous Integration with Jenkins | [Course][17a] |
 
 [1a]: https://testautomationu.applitools.com/javascript-tutorial/index.html
 [1b]: https://github.com/lar-mo/tau-samples/tree/main/intro-to-JS
@@ -34,3 +42,11 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 [8b]: https://github.com/lar-mo/tau-samples/tree/main/playwright-with-javascript
 [9a]: https://testautomationu.applitools.com/testcafe-tutorial/index.html
 [9b]: https://github.com/lar-mo/tau-samples/tree/main/e2e-with-testcafe
+[10]: https://testautomationu.applitools.com/the-whole-team-approach-to-continuous-testing/
+[11]: https://testautomationu.applitools.com/scaling-tests-with-docker/index.html
+[12a]: https://testautomationu.applitools.com/test-automation-in-devops/index.html
+[13a]: https://testautomationu.applitools.com/unit-testing/index.html
+[14a]: https://testautomationu.applitools.com/performance-and-load-testing/index.html
+[15a]: https://testautomationu.applitools.com/modern-functional-testing/index.html
+[16a]: https://testautomationu.applitools.com/git-tutorial/index.html
+[17a]: https://testautomationu.applitools.com/jenkins-tutorial/index.html
