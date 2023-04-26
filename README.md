@@ -15,7 +15,7 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 7 | Automated Visual Testing with WebdriverIO | [Course][7a] | [Code][7b]
 8 | Playwright with JavaScript | [Course][8a] | [Code][8b]
 9 | E2E Web Testing with TestCafe | [Course][9a] | [Code][9b]
-10 | The Whole Team Approach to Continuous Testing | [Course][10] |
+10 | The Whole Team Approach to Continuous Testing | [Course][10] | N/A
 11 | Scaling Tests with Docker | [Course][11] |
 12 | Test Automation in DevOps | [Course][12a] |
 13 | Testing From The Inside: Unit Testing Edition | [Course][13a] |
