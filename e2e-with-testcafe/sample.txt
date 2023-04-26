@@ -167,3 +167,9 @@ npm i testcafe-reporter-Allure
 testcafe chrome test/test.js --reporter allure
 npm i -g allure-commandline
 allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report
+
+Docker 
+
+docker run -v ${PWD}/test:/test -it testcafe/testcafe firefox /test
+
+copy data/data.json and pages/* to inside 'test' folder.
