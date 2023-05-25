@@ -24,6 +24,12 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 16 | Source Control for Test Automation with Git | [Course][16a] |
 17 | Continuous Integration with Jenkins | [Course][17a] |
 
+## Other Relevant Courses
+
+\# | Title | Course URL | Code Repo
+:---:|:---|:---:|:---:
+18 | Web Element Locator Strategies | [Course][18] | 
+
 [1a]: https://testautomationu.applitools.com/javascript-tutorial/index.html
 [1b]: https://github.com/lar-mo/tau-samples/tree/main/intro-to-JS
 [2a]: https://testautomationu.applitools.com/automating-in-the-browser-using-javascript/index.html
@@ -50,3 +56,4 @@ Web UI JavaScript Path: https://testautomationu.applitools.com/learningpaths.htm
 [15a]: https://testautomationu.applitools.com/modern-functional-testing/index.html
 [16a]: https://testautomationu.applitools.com/git-tutorial/index.html
 [17a]: https://testautomationu.applitools.com/jenkins-tutorial/index.html
+[18]: https://testautomationu.applitools.com/web-element-locator-strategies/index.html
